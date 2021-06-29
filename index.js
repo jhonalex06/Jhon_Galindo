@@ -31,7 +31,7 @@ request.onload = function () {
     var oc_description_text, oc_description;
     oc_description = document.querySelector('#output_description');
     oc_description_text = document.createElement("p");
-    oc_description_text.innerHTML = "I am passionate about developing software in Python, principally related to the geographic field. I am a Cadastral Engineer and Geodesist, a student in Master of Science in Information and Communications with emphasis on Geomatics.";
+    oc_description_text.innerHTML = "I am passionate about developing software in Python, principally related to the geographic field. I am a Cadastral Engineer and Geodesist, a Master of Science in Information and Communications student, emphasizing Geomatics.";
     oc_description.appendChild(oc_description_text);
 
     // Skills
