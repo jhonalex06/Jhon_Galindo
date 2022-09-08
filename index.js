@@ -31,7 +31,11 @@ request.onload = function () {
     var oc_description_text, oc_description;
     oc_description = document.querySelector('#output_description');
     oc_description_text = document.createElement("p");
-    oc_description_text.innerHTML = "I am passionate about developing software in Python, principally related to the geographic field. I am a Cadastral Engineer and Geodesist, a Master of Science in Information and Communications student, emphasizing Geomatics.";
+    oc_description_text.innerHTML = "Professional: <br> GIS Software developer with five years of industry experience. Although most of my expertise is in GIS Python software development, I also have experience working with ETLs, Dashboards, Workflows and Data analysis in general. I have helped create various applications to assist in geothermal, land administration and mining.";
+    oc_description_text.innerHTML += "<br><br>";
+    oc_description_text.innerHTML += "Data Science: <br> I work on my DataScience projects in my free time, mainly with free software like Avianca Web Scrapping, Geojobs (Web scrapping and analysis jobs offer on Indeep web page) and Real State platform (Machine learning, AWS and Data analysis).";
+    oc_description_text.innerHTML += "<br><br>";
+    oc_description_text.innerHTML += "Community: <br> I support the QGIS Community in Colombia. I am a member of the QGIS Colombia organization and support the community with knowledge generation. Otherwise, I regularly answer questions in the community GIS Stack Exchange, allowing solve some GIS issues.";
     oc_description.appendChild(oc_description_text);
 
     // Skills
@@ -82,24 +86,24 @@ request.onload = function () {
 
     var location_plot_data = [{
         type: 'scattermapbox',
-        lat: ['43.47918'],
-        lon: ['-80.51685'],
+        lat: ['48.43544'],
+        lon: ['-123.36807'],
         mode: 'markers',
         marker: {
             size: 14,
             color: 'red',
         },
-        text: ['Toronto'],
+        text: ['Jhon Galindo'],
         textposition: "bottom right"
     }];
 
     var location_plot_layout = {
         autosize: true,
         hovermode: 'closest',
-        mapbox: { style: "open-street-map", center: { lat: 43.4793, lon: -80.5206 }, zoom: 11 },
+        mapbox: { style: "open-street-map", center: { lat: 48.43544, lon: -123.36807 }, zoom: 11 },
         margin: { r: 0, t: 50, b: 0, l: 0 },
         title: {
-            text: 'Waterloo, Ontario, Canada',
+            text: 'Victoria, British Columbia, Canada',
         }
     };
 
